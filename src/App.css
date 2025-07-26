@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #cfd0d3;
+
+}
+
+.app__headerImage {
+  width: 150px;
+  object-fit: contain;
+  border: 1px solid #e6d6d6;
+  border-radius: 10px;
+  margin: 10px;
+
+}
+
+
+.app__loginContainer Button {
+  background-color: rgb(24, 112, 219);
+  margin-right: 4px;
+  border-radius: 6px;
+  color: white;
+}
+
+.donate__link {
+  background-color: rgb(24, 112, 219);
+  margin-right: 4px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+  margin: 72px;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsRight {
+  margin-left: 20px;
+  padding-left: 30px;
+}
+
+.auth__ui {
+  display: block;
+  justify-content: center;
+}
+
+.post__commentBox {
+  display: flex;
+  margin-top: 10px;
+}
+
+.post__input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-top: 1px solid lightgray;
+}
+
+.post__comments {
+  padding: 20px;
+}
+
+.post__button {
+  flex: 0;
+  border: none;
+  color: #6082a3;
+  background-color: transparent;
+  border-top: 1px solid lightgray;
+}
+
+.warning {
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(24, 112, 219);
+  border: 2px solid white;
+  color: white;
+  border-radius: 8px;
+}
